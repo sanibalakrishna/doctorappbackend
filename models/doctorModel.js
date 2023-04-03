@@ -14,7 +14,7 @@ const doctorSchema = new Schema({
     type: String,
     required: [true, "Doctor should have a specilization"],
   },
-  arrivalTime: {
+  arriveTime: {
     type: String,
   },
   departTime: {
